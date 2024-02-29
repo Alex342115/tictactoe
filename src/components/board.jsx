@@ -1,10 +1,16 @@
 import "../style.scss";
-// import React from "react";
 import Square from "./square";
 
-function Board({ square, handleSqureClick }) {
+function Board({ square, handleSqureClick, winningSqaure }) {
   const renderSquare = (i) => {
-    return <Square value={square[i]} onClick={() => handleSqureClick(i)} />;
+    const isWinningSqaure = winningSqaure.includes(i);
+    return (
+      <Square
+        value={square[i]}
+        isWinningSqaure={isWinningSqaure}
+        onClick={() => handleSqureClick(i)}
+      />
+    );
   };
 
   return (

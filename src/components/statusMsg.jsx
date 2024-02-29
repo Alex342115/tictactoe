@@ -1,13 +1,10 @@
 import React from "react";
-import { render } from "react-dom";
 
 function StatusMsg({ winner, gamingBoard }) {
   const {square, xIsNext} = gamingBoard;
   const noMovesLeft = gamingBoard.square.every((squareValue) => squareValue !== null);
   const nxtPlayer = gamingBoard.xIsNext ? "X" : "O";
-  // const statusMsg = winner
-  //   ? `Winner is ${winner}`
-  //   : `Next Player is ${nxtPlayer}`;
+
 
   const renderStausMsg = () => {
     if (winner)

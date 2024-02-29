@@ -1,0 +1,23 @@
+[33mcommit 4f41ee46aa050c84586f4396528dbdce8e600103[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: ANKUR NIGAM <83899591+Alex342115@users.noreply.github.com>
+Date:   Fri Mar 1 01:40:01 2024 +0530
+
+    added game history
+
+[33mcommit 5d7ae58983ceae6d7360ae52c84ff1209ab182b5[m
+Author: ANKUR NIGAM <83899591+Alex342115@users.noreply.github.com>
+Date:   Thu Feb 29 03:09:52 2024 +0530
+
+    Added score-feature and tie Methods
+
+[33mcommit a363f54fb8ad5cf281d05e466e6ff54b9017ecca[m
+Author: ANKUR NIGAM <83899591+Alex342115@users.noreply.github.com>
+Date:   Wed Feb 28 02:16:30 2024 +0530
+
+    added winnerCalc
+
+[33mcommit 61554724dc404a2698851fad718ae24847691afe[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ANKUR NIGAM <83899591+Alex342115@users.noreply.github.com>
+Date:   Sun Feb 25 22:52:16 2024 +0530
+
+    first commit
