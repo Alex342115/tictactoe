@@ -1,9 +1,10 @@
 import React from "react";
 import { render } from "react-dom";
 
-function StatusMsg({ winner, xIsNext, square }) {
-  const noMovesLeft = square.every((squareValue) => squareValue !== null);
-  const nxtPlayer = xIsNext ? "X" : "O";
+function StatusMsg({ winner, gamingBoard }) {
+  const {square, xIsNext} = gamingBoard;
+  const noMovesLeft = gamingBoard.square.every((squareValue) => squareValue !== null);
+  const nxtPlayer = gamingBoard.xIsNext ? "X" : "O";
   // const statusMsg = winner
   //   ? `Winner is ${winner}`
   //   : `Next Player is ${nxtPlayer}`;
@@ -23,7 +24,7 @@ function StatusMsg({ winner, xIsNext, square }) {
       return (
         <>
           Next Player is{" "}
-          <span className={xIsNext ? "text-green" : "text-orange"}>
+          <span className={gamingBoard.xIsNext ? "text-green" : "text-orange"}>
             {nxtPlayer}
           </span>
         </>
